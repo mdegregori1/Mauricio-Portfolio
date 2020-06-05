@@ -4,7 +4,7 @@ import styled from "styled-components"
 export const MyWriting = () => {
     return (
         <WritingContainer>
-            <h2>This page is under construction 🚧 Please come back later! </h2>
+            <h2>🚧 This page is currently under construction 🚧 Please come back later! </h2>
         </WritingContainer>
     )
 }

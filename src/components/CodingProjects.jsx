@@ -7,8 +7,10 @@ export const CodingProjects = () => {
         <AllProjects>
             <Pair>
                 <Project>
-                    <Name>Project Name</Name>
-                    <ProjectImage src={Me}/>
+                    <Name>Quackhire</Name>
+                    <ImageContainer>
+                        <ProjectImage src={Me}/>
+                    </ImageContainer>
                     <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae beatae excepturi iure, reprehenderit maxime natus porro est ex totam error modi numquam animi itaque quos ad sapiente perferendis, inventore sed!</Description>
                     <ButtonDiv>
                         <Button>Code</Button>
@@ -16,8 +18,10 @@ export const CodingProjects = () => {
                     </ButtonDiv>
                 </Project>
                 <Project>
-                    <Name>Project Name</Name>
-                    <ProjectImage src={Me}/>
+                    <Name>Quickhire.dev</Name>
+                    <ImageContainer>
+                        <ProjectImage src={Me}/>
+                    </ImageContainer>
                     <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae beatae excepturi iure, reprehenderit maxime natus porro est ex totam error modi numquam animi itaque quos ad sapiente perferendis, inventore sed!</Description>
                     <ButtonDiv>
                         <Button>Code</Button>
@@ -27,8 +31,10 @@ export const CodingProjects = () => {
             </Pair>
             <Pair>
                 <Project>
-                    <Name>Project Name</Name>
-                    <ProjectImage src={Me}/>
+                    <Name>Weightlifting Journal</Name>
+                    <ImageContainer>
+                        <ProjectImage src={Me}/>
+                    </ImageContainer>
                     <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ullam sed, itaque vitae, qui beatae corrupti dolorum ad deserunt molestiae temporibus nostrum placeat aliquid repellat, excepturi quod a id quos.</Description>
                     <ButtonDiv>
                         <Button>Code</Button>
@@ -36,8 +42,10 @@ export const CodingProjects = () => {
                     </ButtonDiv>
                 </Project>
                 <Project>
-                    <Name>Project Name</Name>
-                    <ProjectImage src={Me}/>
+                    <Name>Life GPA</Name>
+                    <ImageContainer>
+                        <ProjectImage src={Me}/>
+                    </ImageContainer>
                     <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ullam sed, itaque vitae, qui beatae corrupti dolorum ad deserunt molestiae temporibus nostrum placeat aliquid repellat, excepturi quod a id quos.</Description>
                     <ButtonDiv>
                         <Button>Code</Button>
@@ -71,6 +79,10 @@ export const CodingProjects = () => {
     )
 }
 
+let ImageContainer = styled.div`
+border: 1px solid #36454F;
+overflow: hidden;
+`
 let ButtonDiv = styled.div`
 width: 25rem;
 display: flex;
@@ -102,6 +114,10 @@ color: #BB86FC;
 `
 let ProjectImage = styled.img`
 width: 25rem;
+&:hover {
+    transition: transform .5s ease;
+    transform: scale(1.5);
+}
 `
 
 let AllProjects = styled.div`

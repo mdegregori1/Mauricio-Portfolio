@@ -45,7 +45,7 @@ export const CodingProjects = () => {
                     </ButtonDiv>
                 </Project>
             </Pair>
-            <Pair>
+            {/* <Pair>
                 <Project>
                     <Name>Project Name</Name>
                     <ProjectImage src={Me}/>
@@ -65,7 +65,7 @@ export const CodingProjects = () => {
                     </ButtonDiv>
                 </Project>
 
-            </Pair>
+            </Pair> */}
         </AllProjects>
 
     )

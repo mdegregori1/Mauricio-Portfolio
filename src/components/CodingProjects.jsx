@@ -2,21 +2,36 @@ import React from "react"
 import styled from "styled-components"
 import Me from "../img/me.png"
 
+
 export const CodingProjects = () => {
+
+    const visitOne = () => {
+        window.open("https://quackhire.com/", "_blank") 
+    }
+
+    const visitTwoDeployed = () => {
+        window.open("https://quickhire.dev/", "_blank") 
+    }
+
+    const visitTwoCode = () => {
+        window.open("https://github.com/mdegregori1/Job-Funnel-fe", "_blank")
+    }
+
+    const visitThree = () => {
+        window.open("https://github.com/Build-Week-WeightLifting-Journal/Backend", '_blank')
+    }
+
+    const visitFourDeployed = () => {
+        window.open("https://life-gpa.now.sh/", '_blank')
+    }
+
+     const visitFourCode = () => {
+        window.open("https://github.com/mdegregori1/lifegpa-frontend", '_blank')
+    }
+
     return (
         <AllProjects>
             <Pair>
-                <Project>
-                    <Name>Quackhire</Name>
-                    <ImageContainer>
-                        <ProjectImage src={Me}/>
-                    </ImageContainer>
-                    <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae beatae excepturi iure, reprehenderit maxime natus porro est ex totam error modi numquam animi itaque quos ad sapiente perferendis, inventore sed!</Description>
-                    <ButtonDiv>
-                        <Button>Code</Button>
-                        <Button>Deployed</Button>
-                    </ButtonDiv>
-                </Project>
                 <Project>
                     <Name>Quickhire.dev</Name>
                     <ImageContainer>
@@ -24,8 +39,18 @@ export const CodingProjects = () => {
                     </ImageContainer>
                     <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae beatae excepturi iure, reprehenderit maxime natus porro est ex totam error modi numquam animi itaque quos ad sapiente perferendis, inventore sed!</Description>
                     <ButtonDiv>
-                        <Button>Code</Button>
-                        <Button>Deployed</Button>
+                        <Button onClick={visitTwoCode}>Code</Button>
+                        <Button onClick={visitTwoDeployed}>Deployed</Button>
+                    </ButtonDiv>
+                </Project>
+                <Project>
+                    <Name>Quackhire.com</Name>
+                    <ImageContainer>
+                        <ProjectImage src={Me}/>
+                    </ImageContainer>
+                    <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae beatae excepturi iure, reprehenderit maxime natus porro est ex totam error modi numquam animi itaque quos ad sapiente perferendis, inventore sed!</Description>
+                    <ButtonDiv>
+                        <SingleButton onClick={visitOne}>Deployed</SingleButton>
                     </ButtonDiv>
                 </Project>
             </Pair>
@@ -37,8 +62,7 @@ export const CodingProjects = () => {
                     </ImageContainer>
                     <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ullam sed, itaque vitae, qui beatae corrupti dolorum ad deserunt molestiae temporibus nostrum placeat aliquid repellat, excepturi quod a id quos.</Description>
                     <ButtonDiv>
-                        <Button>Code</Button>
-                        <Button>Deployed</Button>
+                        <SingleButton onClick={visitThree}>Code</SingleButton>
                     </ButtonDiv>
                 </Project>
                 <Project>
@@ -48,32 +72,11 @@ export const CodingProjects = () => {
                     </ImageContainer>
                     <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ullam sed, itaque vitae, qui beatae corrupti dolorum ad deserunt molestiae temporibus nostrum placeat aliquid repellat, excepturi quod a id quos.</Description>
                     <ButtonDiv>
-                        <Button>Code</Button>
-                        <Button>Deployed</Button>
+                        <Button onClick={visitFourCode}>Code</Button>
+                        <Button onClick={visitFourDeployed}>Deployed</Button>
                     </ButtonDiv>
                 </Project>
             </Pair>
-            {/* <Pair>
-                <Project>
-                    <Name>Project Name</Name>
-                    <ProjectImage src={Me}/>
-                    <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ullam sed, itaque vitae, qui beatae corrupti dolorum ad deserunt molestiae temporibus nostrum placeat aliquid repellat, excepturi quod a id quos.</Description>
-                    <ButtonDiv>
-                        <Button>Code</Button>
-                        <Button>Deployed</Button>
-                    </ButtonDiv>
-                </Project>
-                <Project>
-                    <Name>Project Name</Name>
-                    <ProjectImage src={Me}/>
-                    <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ullam sed, itaque vitae, qui beatae corrupti dolorum ad deserunt molestiae temporibus nostrum placeat aliquid repellat, excepturi quod a id quos.</Description>
-                    <ButtonDiv>
-                        <Button>Code</Button>
-                        <Button>Deployed</Button>
-                    </ButtonDiv>
-                </Project>
-
-            </Pair> */}
         </AllProjects>
 
     )
@@ -83,6 +86,7 @@ let ImageContainer = styled.div`
 border: 1px solid #36454F;
 overflow: hidden;
 `
+
 let ButtonDiv = styled.div`
 width: 25rem;
 display: flex;
@@ -90,17 +94,31 @@ justify-content: space-evenly;
 align-items: center;
 
 `
+let SingleButton = styled.button`
+color: #ffffff;
+background: #9742ff;
+border: #9742ff;
+padding: 3%;
+margin: 3% 0 3% 0;
+width: 70%;
+border-radius: 15px;
+font-weight: bold;
+&:hover {
+    background: #BB86FC;
+}
+`
 
 let Button = styled.button`
 color: #ffffff;
-background: #BB86FC;
-border: #BB86FC;
-padding: 2%;
+background: #9742ff;
+border: #9742ff;
+padding: 3%;
+margin: 3% 0 3% 0;
 width: 40%;
 border-radius: 15px;
 font-weight: bold;
 &:hover {
-    background: #9742ff;
+    background: #BB86FC;
 }
 `
 let Description = styled.p`

@@ -10,7 +10,7 @@ export const CodingProjects = () => {
     }
 
     const visitTwoDeployed = () => {
-        window.open("https://quickhire.dev/", "_blank") 
+        window.open("https://www.youtube.com/watch?v=yOytaZO1vLg", "_blank") 
     }
 
     const visitTwoCode = () => {

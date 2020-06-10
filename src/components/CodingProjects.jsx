@@ -41,7 +41,10 @@ export const CodingProjects = () => {
                     <ImageContainer>
                         <ProjectImage src={Quick}/>
                     </ImageContainer>
-                    <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae beatae excepturi iure, reprehenderit maxime natus porro est ex totam error modi numquam animi itaque quos ad sapiente perferendis, inventore sed!</Description>
+                    <Text>
+                        <Role>Fullstack Developer</Role>
+                        <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae beatae excepturi iure, reprehenderit maxime natus porro est ex totam error modi numquam animi itaque quos ad sapiente perferendis, inventore sed!</Description>
+                    </Text>
                     <ButtonDiv>
                         <Button onClick={visitTwoCode}>Code</Button>
                         <Button onClick={visitTwoDeployed}>Deployed</Button>
@@ -52,7 +55,10 @@ export const CodingProjects = () => {
                     <ImageContainer>
                         <ProjectImage src={Quack}/>
                     </ImageContainer>
-                    <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae beatae excepturi iure, reprehenderit maxime natus porro est ex totam error modi numquam animi itaque quos ad sapiente perferendis, inventore sed!</Description>
+                    <Text>
+                        <Role>Frontend Developer</Role>
+                        <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae beatae excepturi iure, reprehenderit maxime natus porro est ex totam error modi numquam animi itaque quos ad sapiente perferendis, inventore sed!</Description>
+                    </Text>
                     <ButtonDiv>
                         <SingleButton onClick={visitOne}>Deployed</SingleButton>
                     </ButtonDiv>
@@ -64,7 +70,10 @@ export const CodingProjects = () => {
                     <ImageContainer>
                         <ProjectImage src={Workout}/>
                     </ImageContainer>
-                    <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ullam sed, itaque vitae, qui beatae corrupti dolorum ad deserunt molestiae temporibus nostrum placeat aliquid repellat, excepturi quod a id quos.</Description>
+                    <Text>
+                        <Role>Backend Developer</Role>
+                        <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae beatae excepturi iure, reprehenderit maxime natus porro est ex totam error modi numquam animi itaque quos ad sapiente perferendis, inventore sed!</Description>
+                    </Text>
                     <ButtonDiv>
                         <SingleButton onClick={visitThree}>Code</SingleButton>
                     </ButtonDiv>
@@ -74,7 +83,10 @@ export const CodingProjects = () => {
                     <ImageContainer>
                         <ProjectImage src={Life}/>
                     </ImageContainer>
-                    <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ullam sed, itaque vitae, qui beatae corrupti dolorum ad deserunt molestiae temporibus nostrum placeat aliquid repellat, excepturi quod a id quos.</Description>
+                    <Text>
+                        <Role>Frontend Developer</Role>
+                        <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae beatae excepturi iure, reprehenderit maxime natus porro est ex totam error modi numquam animi itaque quos ad sapiente perferendis, inventore sed!</Description>
+                    </Text>
                     <ButtonDiv>
                         <Button onClick={visitFourCode}>Code</Button>
                         <Button onClick={visitFourDeployed}>Deployed</Button>
@@ -86,8 +98,18 @@ export const CodingProjects = () => {
     )
 }
 
+let Text = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 25rem;
+`
+
+let Role = styled.p`
+color: #ffffff;
+`
 let ImageContainer = styled.div`
-border: 1px solid #36454F;
 overflow: hidden;
 `
 
@@ -126,10 +148,10 @@ font-weight: bold;
 }
 `
 let Description = styled.p`
+margin-top: 0px;
 color: #ffffff;
 text-align: justify;
-width: 25rem;
-padding: 1%;
+
 `
 let Name = styled.h3`
 color: #BB86FC;

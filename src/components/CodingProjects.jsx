@@ -1,6 +1,10 @@
 import React from "react"
 import styled from "styled-components"
-import Me from "../img/me.png"
+import Quack from "../img/quackimg.png"
+import Quick from "../img/quickimgblue.png"
+import Life from "../img/lifegpalogin.png"
+import Workout from "../img/workoutlanding.png"
+
 
 
 export const CodingProjects = () => {
@@ -35,7 +39,7 @@ export const CodingProjects = () => {
                 <Project>
                     <Name>Quickhire.dev</Name>
                     <ImageContainer>
-                        <ProjectImage src={Me}/>
+                        <ProjectImage src={Quick}/>
                     </ImageContainer>
                     <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae beatae excepturi iure, reprehenderit maxime natus porro est ex totam error modi numquam animi itaque quos ad sapiente perferendis, inventore sed!</Description>
                     <ButtonDiv>
@@ -46,7 +50,7 @@ export const CodingProjects = () => {
                 <Project>
                     <Name>Quackhire.com</Name>
                     <ImageContainer>
-                        <ProjectImage src={Me}/>
+                        <ProjectImage src={Quack}/>
                     </ImageContainer>
                     <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae beatae excepturi iure, reprehenderit maxime natus porro est ex totam error modi numquam animi itaque quos ad sapiente perferendis, inventore sed!</Description>
                     <ButtonDiv>
@@ -58,7 +62,7 @@ export const CodingProjects = () => {
                 <Project>
                     <Name>Weightlifting Journal</Name>
                     <ImageContainer>
-                        <ProjectImage src={Me}/>
+                        <ProjectImage src={Workout}/>
                     </ImageContainer>
                     <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ullam sed, itaque vitae, qui beatae corrupti dolorum ad deserunt molestiae temporibus nostrum placeat aliquid repellat, excepturi quod a id quos.</Description>
                     <ButtonDiv>
@@ -68,7 +72,7 @@ export const CodingProjects = () => {
                 <Project>
                     <Name>Life GPA</Name>
                     <ImageContainer>
-                        <ProjectImage src={Me}/>
+                        <ProjectImage src={Life}/>
                     </ImageContainer>
                     <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ullam sed, itaque vitae, qui beatae corrupti dolorum ad deserunt molestiae temporibus nostrum placeat aliquid repellat, excepturi quod a id quos.</Description>
                     <ButtonDiv>

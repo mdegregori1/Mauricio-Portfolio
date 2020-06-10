@@ -5,6 +5,9 @@ import Quick from "../img/quickimgblue.png"
 import Life from "../img/lifegpalogin.png"
 import Workout from "../img/workoutlanding.png"
 
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
+
 
 
 export const CodingProjects = () => {
@@ -38,9 +41,9 @@ export const CodingProjects = () => {
             <Pair>
                 <Project>
                     <Name>Quickhire.dev</Name>
-                    <ImageContainer>
+                    <Zoom>
                         <ProjectImage src={Quick}/>
-                    </ImageContainer>
+                    </Zoom>
                     <Text>
                         <Role>Fullstack Developer</Role>
                         <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae beatae excepturi iure, reprehenderit maxime natus porro est ex totam error modi numquam animi itaque quos ad sapiente perferendis, inventore sed!</Description>
@@ -52,9 +55,9 @@ export const CodingProjects = () => {
                 </Project>
                 <Project>
                     <Name>Quackhire.com</Name>
-                    <ImageContainer>
+                    <Zoom>
                         <ProjectImage src={Quack}/>
-                    </ImageContainer>
+                    </Zoom>
                     <Text>
                         <Role>Frontend Developer</Role>
                         <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae beatae excepturi iure, reprehenderit maxime natus porro est ex totam error modi numquam animi itaque quos ad sapiente perferendis, inventore sed!</Description>
@@ -67,9 +70,9 @@ export const CodingProjects = () => {
             <Pair>
                 <Project>
                     <Name>Weightlifting Journal</Name>
-                    <ImageContainer>
+                    <Zoom>
                         <ProjectImage src={Workout}/>
-                    </ImageContainer>
+                    </Zoom>
                     <Text>
                         <Role>Backend Developer</Role>
                         <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae beatae excepturi iure, reprehenderit maxime natus porro est ex totam error modi numquam animi itaque quos ad sapiente perferendis, inventore sed!</Description>
@@ -80,9 +83,9 @@ export const CodingProjects = () => {
                 </Project>
                 <Project>
                     <Name>Life GPA</Name>
-                    <ImageContainer>
+                    <Zoom>
                         <ProjectImage src={Life}/>
-                    </ImageContainer>
+                    </Zoom>
                     <Text>
                         <Role>Frontend Developer</Role>
                         <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae beatae excepturi iure, reprehenderit maxime natus porro est ex totam error modi numquam animi itaque quos ad sapiente perferendis, inventore sed!</Description>
@@ -109,9 +112,7 @@ width: 25rem;
 let Role = styled.p`
 color: #ffffff;
 `
-let ImageContainer = styled.div`
-overflow: hidden;
-`
+
 
 let ButtonDiv = styled.div`
 width: 25rem;

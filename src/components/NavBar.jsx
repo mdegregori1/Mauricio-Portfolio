@@ -11,7 +11,8 @@ export const NavBar = () => {
             <Tabs>
                 <Categories href="/">Home</Categories>
                 <Categories href="/Projects">Projects</Categories>
-                <Categories href="/Writing">Writing</Categories>
+                <Categories href="https://docs.google.com/document/d/1Ybq8cBsinf0gC-mBLEztyv_qGkNw8gw2Uqet53xC3mE/edit?usp=sharing" target="_blank">Resume</Categories>
+
             </Tabs>
         </Container>
     )

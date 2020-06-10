@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components"
 import CartoonMe from "../img/cartoonme.png"
 import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
+import {FiMail} from "react-icons/fi"
 
 export const HomePage = () => {
     
@@ -11,8 +12,8 @@ export const HomePage = () => {
                 <Picture src={CartoonMe}/>
                 <Intro>Hey, I'm Mauricio.</Intro>
                 <About>
-                    <p>I build <BodyTag href="/Projects">projects</BodyTag> using React, Redux, and Node. Also skilled in HTML, JS, CSS, and Python + Flask. </p>
-                    <p>I like to <BodyTag href="/Writing">write</BodyTag>, make videos, skateboard, and make people laugh.</p>
+                    <p>I build <BodyTag href="/Projects">projects</BodyTag> using React, Redux, and Node. Also skilled in HTML, CSS, JavaScript, and Python/Flask. </p>
+                    <p>I like to write, make videos, skateboard, and make people laugh.</p>
                     <p>Currently learning Angular, and working on <BodyTag href="https://quackhire.com/">Quackhire.</BodyTag></p>
                 </About>
                 <Social>
@@ -22,8 +23,8 @@ export const HomePage = () => {
                     <Tag href ="https://github.com/mdegregori1" target="_blank">
                         <FaGithub size="2rem" color="#ffffff"/>
                     </Tag>
-                    <Tag href = "https://twitter.com/degregori_pe" target="_blank">
-                        <FaTwitter size="2rem" color="#ffffff"/>
+                    <Tag href="mailto:degregorimauricio@gmail.com" target="_blank">
+                        <FiMail size="2rem" color="#ffffff"/>
                     </Tag>
                 </Social>
             </Content>

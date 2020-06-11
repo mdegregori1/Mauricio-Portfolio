@@ -46,7 +46,6 @@ export const CodingProjects = () => {
                     </Zoom>
                     <Text>
                         <Role>Fullstack Developer</Role>
-                        {/* <Role>Quickhire.dev is a streamlined job site, in which users can search for jobs across the web, and interact with them via saving, applying, and deleting.</Role> */}
                         <List>
                             <ListItem>A job site that allows recent graduates to find employment. Graduates can create an account, search top job sites, and save them to their Quickhire dashboard. </ListItem>
                             <ListItem><strong>Tech:</strong> React, Redux, Less, Node/Express/Knex, AWS</ListItem>
@@ -54,7 +53,6 @@ export const CodingProjects = () => {
                             <ListItem><strong>Backend:</strong> Assisted in both designing and implementing table relationships for our database.  </ListItem>
                          
                         </List>
-                        {/* <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae beatae excepturi iure, reprehenderit maxime natus porro est ex totam error modi numquam animi itaque quos ad sapiente perferendis, inventore sed!</Description> */}
                     </Text>
                     <ButtonDiv>
                         <Button onClick={visitTwoCode}>Code</Button>
@@ -68,11 +66,10 @@ export const CodingProjects = () => {
                     </Zoom>
                     <Text>
                         <Role>Frontend Developer</Role>
-                        {/* <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae beatae excepturi iure, reprehenderit maxime natus porro est ex totam error modi numquam animi itaque quos ad sapiente perferendis, inventore sed!</Description> */}
                         <List>
-                            <ListItem>A chrome extension to allows users to streamline their job search process. Users can activate extension on major job sites, and save directly to their Quackhire dashboard.  </ListItem>
+                            <ListItem>A chrome extension that allows users to streamline their job search process. Users can activate extension on major job sites, and save directly to their Quackhire dashboard.  </ListItem>
                             <ListItem><strong>Tech:</strong> React, Redux, Less, Node/Express/Knex, Heroku</ListItem>
-                            <ListItem><strong>Frontend:</strong> Styled the entire front end, created the landing page, pulled job data from extension to the front end dashboard, and assisted in creating the UX design. Our goal is to have real users that utilize Quackhire as a job search tool, and my job (outside of development) is to ask for and interpret feedback. Project currently in progress.  </ListItem>
+                            <ListItem><strong>Frontend:</strong> Styled the entire frontend, created the landing page, pulled job data from extension to the frontend dashboard, and assisted in creating the UX design. Our goal is to have real users that utilize Quackhire as a job search tool, and my job (outside of development) is to ask for and interpret feedback. Project development currently in progress.  </ListItem>
                          
                         </List>
                     </Text>
@@ -91,10 +88,9 @@ export const CodingProjects = () => {
                         <Role>Backend Developer</Role>
                         {/* <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae beatae excepturi iure, reprehenderit maxime natus porro est ex totam error modi numquam animi itaque quos ad sapiente perferendis, inventore sed!</Description> */}
                         <List>
-                            <ListItem>Quickhire.dev is a streamlined job site, in which users can search for jobs across the web, and interact with them via saving, applying, and deleting.</ListItem>
-                            <ListItem>Tech: React, Redux, Less, Node/Express/Knex, AWS</ListItem>
-                            <ListItem>On the frontend, I personally set up most of the CRUD functionality by hitting backend endpoints (save job, change job status, change profile picture, etc) </ListItem>
-                            <ListItem>On the backend, I helped create the models of the tables. </ListItem>
+                            <ListItem>A site that allows gym-goers to keep track of their workouts, and their progress.  </ListItem>
+                            <ListItem><strong>Tech:</strong> Node, Express, Knex, SQLite, PostgreSQL, Heroku</ListItem>
+                            <ListItem><strong>Backend:</strong> Designed, created, and deployed the entire Backend API over a 4-day period using Node.js. Created seed data, and provided endpoint documentation to a team of frontend developers. </ListItem>
                         </List>
                     </Text>
                     <ButtonDiv>
@@ -110,10 +106,9 @@ export const CodingProjects = () => {
                         <Role>Frontend Developer</Role>
                         {/* <Description>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae beatae excepturi iure, reprehenderit maxime natus porro est ex totam error modi numquam animi itaque quos ad sapiente perferendis, inventore sed!</Description> */}
                         <List>
-                            <ListItem>Quickhire.dev is a streamlined job site, in which users can search for jobs across the web, and interact with them via saving, applying, and deleting.</ListItem>
-                            <ListItem>Tech: React, Redux, Less, Node/Express/Knex, AWS</ListItem>
-                            <ListItem>On the frontend, I personally set up most of the CRUD functionality by hitting backend endpoints (save job, change job status, change profile picture, etc) </ListItem>
-                            <ListItem>On the backend, I helped create the models of the tables. </ListItem>
+                            <ListItem>A site that helps users keep track of their goals, and their progress towards them by giving them a daily grade. </ListItem>
+                            <ListItem><strong>Tech:</strong> React, MaterialUI, Styled-Components, Formik</ListItem>
+                            <ListItem><strong>Frontend:</strong> Designed and styled login/register + landing page using MaterialUI and Styled Components, and implemented Formik for user validation. </ListItem>
                         </List>
                     </Text>
                     <ButtonDiv>

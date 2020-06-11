@@ -40,7 +40,7 @@ export const CodingProjects = () => {
         <AllProjects>
             <Pair>
                 <Project>
-                    <Name>Quickhire.dev</Name>
+                    <Name>Quickhire</Name>
                     <Zoom>
                         <ProjectImage src={Quick}/>
                     </Zoom>
@@ -60,7 +60,7 @@ export const CodingProjects = () => {
                     </ButtonDiv>
                 </Project>
                 <Project>
-                    <Name>Quackhire.com</Name>
+                    <Name>Quackhire</Name>
                     <Zoom>
                         <ProjectImage src={Quack}/>
                     </Zoom>

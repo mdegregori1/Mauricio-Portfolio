@@ -1,10 +1,11 @@
 import React from "react";
 import styled from "styled-components"
 import CartoonMe from "../img/cartoonme.png"
-import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import {FiMail} from "react-icons/fi"
 
 export const HomePage = () => {
+    
     
     return (
         <MainCont>
@@ -78,6 +79,7 @@ background: #2a3439;
 let Content = styled.div`
 
 width: 60%;
+margin-top: 7%;
 padding: 2%;
 display: flex;
 flex-direction: column;

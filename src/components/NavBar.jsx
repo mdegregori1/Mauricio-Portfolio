@@ -25,9 +25,8 @@ height: 8vh;
 display: flex;
 align-items: center;
 justify-content: space-between;
-
-
-
+position: fixed;
+z-index: 100
 `
 
 const Tabs = styled.div`
@@ -35,7 +34,6 @@ width: 30%;
 display: flex;
 align-items: center;
 justify-content: space-around;
-
 
 `
 

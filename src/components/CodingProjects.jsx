@@ -123,29 +123,29 @@ align-items: center;
 `
 let SingleButton = styled.button`
 color: #ffffff;
-background: #9742ff;
-border: #9742ff;
+background: #BB86FC;
+border: #BB86FC;
 padding: 3%;
 margin: 3% 0 3% 0;
 width: 70%;
 border-radius: 15px;
 font-weight: bold;
 &:hover {
-    background: #BB86FC;
+    background: #9742ff;
 }
 `
 
 let Button = styled.button`
 color: #ffffff;
-background: #9742ff;
-border: #9742ff;
+background: #BB86FC;
+border: #BB86FC;
 padding: 3%;
 margin: 3% 0 3% 0;
 width: 40%;
 border-radius: 15px;
 font-weight: bold;
 &:hover {
-    background: #BB86FC;
+    background: #9742ff;
 }
 `
 let Description = styled.p`
@@ -159,15 +159,13 @@ color: #BB86FC;
 `
 let ProjectImage = styled.img`
 width: 25rem;
-&:hover {
-    transition: transform .5s ease;
-    transform: scale(1.5);
-}
+
 `
 
 let AllProjects = styled.div`
 background: #2a3439;
 padding: 5%;
+
 `
 
 let Pair = styled.div`

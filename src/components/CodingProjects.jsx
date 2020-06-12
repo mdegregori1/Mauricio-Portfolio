@@ -49,7 +49,7 @@ export const CodingProjects = () => {
                         <List>
                             <ListItem>A job site that allows recent graduates to find employment. Graduates can create an account, search top job sites, and save them to their Quickhire dashboard. </ListItem>
                             <ListItem><strong>Tech:</strong> React, Redux, Less, Node/Express/Knex, AWS</ListItem>
-                            <ListItem><strong>Frontend:</strong> Styled the site, set up Redux store, and completed 90% of project's CRUD operations, Also, wrote documentation, made the site responsive, and created a dark mode custom hook. </ListItem>
+                            <ListItem><strong>Frontend:</strong> Styled the site, set up Redux store, and completed 90% of project's CRUD operations. Also, wrote documentation, made the site responsive, and created a dark mode custom hook. </ListItem>
                             <ListItem><strong>Backend:</strong> Assisted in both designing and implementing table relationships for our database.  </ListItem>
                          
                         </List>

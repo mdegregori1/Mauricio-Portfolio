@@ -198,11 +198,13 @@ let AllProjects = styled.div`
 background: #2a3439;
 padding: 5%;
 
+
 `
 
 let Pair = styled.div`
 display: flex;
 justify-content: space-evenly;
+margin-top: 2%;
 `
 
 let Project = styled.div`

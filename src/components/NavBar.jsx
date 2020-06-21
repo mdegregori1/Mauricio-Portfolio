@@ -21,7 +21,7 @@ export const NavBar = () => {
 const Container = styled.div`
 width: 100%;
 background: #2a3439;
-height: 8vh;
+height: 10vh;
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -34,6 +34,7 @@ width: 30%;
 display: flex;
 align-items: center;
 justify-content: space-around;
+
 
 `
 

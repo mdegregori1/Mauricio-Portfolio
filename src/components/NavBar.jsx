@@ -20,7 +20,7 @@ export const NavBar = () => {
 
 const Container = styled.div`
 width: 100%;
-background: #2a3439;
+background: #ffffff;
 height: 10vh;
 display: flex;
 align-items: center;
@@ -50,13 +50,13 @@ const Me = styled.a`
 text-decoration: none;
 margin-left: 2%;
 font-weight: bold;
-color: #BB86FC;
+color: #9742ff;
 `
 const Categories = styled.a`
 text-decoration: none;
-color: #ffffff;
+color: #9742ff;
 &:hover {
-    color: #BB86FC;
+    color: black;
 }
 
 `

@@ -126,7 +126,7 @@ let ListItem = styled.li`
 margin: 0;
 `
 let List = styled.ul`
-color: #ffffff;
+color: black;
 margin: 2% 0 2% 0;
 
 `
@@ -140,7 +140,7 @@ width: 25rem;
 `
 
 let Role = styled.p`
-color: #ffffff;
+color: black;
 text-align: 
 `
 
@@ -155,29 +155,29 @@ align-items: center;
 `
 let SingleButton = styled.button`
 color: #ffffff;
-background: #BB86FC;
-border: #BB86FC;
+background: #9742ff;
+border: #9742ff;
 padding: 3%;
 margin: 3% 0 3% 0;
 width: 70%;
 border-radius: 15px;
 font-weight: bold;
 &:hover {
-    background: #9742ff;
+    background: #BB86FC;
 }
 `
 
 let Button = styled.button`
 color: #ffffff;
-background: #BB86FC;
-border: #BB86FC;
+background: #9742ff;
+border: #9742ff;
 padding: 3%;
 margin: 3% 0 3% 0;
 width: 40%;
 border-radius: 15px;
 font-weight: bold;
 &:hover {
-    background: #9742ff;
+    background: #BB86FC;
 }
 `
 let Description = styled.p`
@@ -187,7 +187,7 @@ text-align: justify;
 
 `
 let Name = styled.h3`
-color: #BB86FC;
+color: #9742ff;
 `
 let ProjectImage = styled.img`
 width: 25rem;
@@ -195,7 +195,7 @@ width: 25rem;
 `
 
 let AllProjects = styled.div`
-background: #2a3439;
+background: #ffffff;
 padding: 5%;
 
 
@@ -216,6 +216,5 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-border: 4px solid #36454F;
-border-radius: 30px;
+
 `

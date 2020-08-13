@@ -15,7 +15,7 @@ export const HomePage = () => {
                 <About>
                     <p>I build <BodyTag href="/Projects">projects</BodyTag> using React, Redux, and Node. Also skilled in HTML, CSS, JavaScript, and Python/Flask. </p>
                     <p>I like to write, make videos, skateboard, and make people laugh.</p>
-                    <p>Currently learning Angular, and working on <BodyTag href="https://quackhire.com/">Quackhire.</BodyTag></p>
+                    <p>Currently learning React Native, and working on <BodyTag href="https://quackhire.com/">HabitStreak.</BodyTag></p>
                 </About>
                 <Social>
                     <Tag href ="https://www.linkedin.com/in/mauricio-degregori/" target="_blank">
@@ -40,11 +40,11 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-color: #ffffff;
+color: black;
 `
 let BodyTag = styled.a`
 text-decoration: none;
-color: #BB86FC;
+color: #9742ff;
 `
 let Tag = styled.a`
 text-decoration: none;
@@ -73,7 +73,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 height: 100vh;
-background: #2a3439;
+background: #ffffff;
 
 `
 let Content = styled.div`
@@ -85,7 +85,6 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-border: 4px solid #36454F;
 border-radius: 30px;
 
 `
@@ -93,7 +92,7 @@ border-radius: 30px;
 let Intro = styled.h3`
 text-align: center;
 width: 100%;
-color: #BB86FC;
+color: #9742ff;
 
 
 

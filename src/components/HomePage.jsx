@@ -15,7 +15,7 @@ export const HomePage = () => {
                 <About>
                     <p>I build <BodyTag href="/Projects">projects</BodyTag> using React, Redux, and Node. Also skilled in HTML, CSS, JavaScript, and Python/Flask. </p>
                     <p>I like to write, make videos, skateboard, and make people laugh.</p>
-                    <p>Currently learning React Native, and working on <BodyTag href="https://quackhire.com/">HabitStreak.</BodyTag></p>
+                    <p>Currently learning React Native, and working on <BodyTag href="https://quackhire.com/">Quackhire.</BodyTag></p>
                 </About>
                 <Social>
                     <Tag href ="https://www.linkedin.com/in/mauricio-degregori/" target="_blank">

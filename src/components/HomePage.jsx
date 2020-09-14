@@ -19,13 +19,13 @@ export const HomePage = () => {
                 </About>
                 <Social>
                     <Tag href ="https://www.linkedin.com/in/mauricio-degregori/" target="_blank">
-                        <FaLinkedinIn size="2rem" color="#ffffff"/>
+                        <FaLinkedinIn size="2rem" color="black"/>
                     </Tag>
                     <Tag href ="https://github.com/mdegregori1" target="_blank">
-                        <FaGithub size="2rem" color="#ffffff"/>
+                        <FaGithub size="2rem" color="black"/>
                     </Tag>
                     <Tag href="mailto:degregorimauricio@gmail.com" target="_blank">
-                        <FiMail size="2rem" color="#ffffff"/>
+                        <FiMail size="2rem" color="black"/>
                     </Tag>
                 </Social>
             </Content>
